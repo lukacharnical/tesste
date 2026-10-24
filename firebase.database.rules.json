@@ -1,0 +1,32 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "apps": {
+      ".read": true,
+      "$appId": {
+        ".write": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2' || (!data.exists() && newData.exists()))"
+      }
+    },
+    "store_users": {
+      ".read": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')",
+      ".write": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')"
+    },
+    "reports": {
+      ".read": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')",
+      ".write": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')"
+    },
+    "messages": {
+      ".read": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')",
+      ".write": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')"
+    },
+    "notifications": {
+      ".read": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')",
+      ".write": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')"
+    },
+    "moderation_logs": {
+      ".read": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')",
+      ".write": "auth != null && (auth.uid === 'Qo6URdVx5jMJ6KRAaQDezjDsQjH2' || auth.uid === 'KfUNiHj3cRbLGIemZZRZP0e1sy02' || auth.uid === 'S6zzNGq0swTfH4Og8RLaXUovH6Y2')"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "theme": {
+    "primaryColor": "#6366f1",
+    "bannerText": "Bienvenue sur OpenStore"
+  },
+  "extensions": {
+    "darkModeForced": true,
+    "customCss": ""
+  }
+}
